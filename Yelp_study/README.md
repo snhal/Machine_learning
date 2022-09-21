@@ -1,0 +1,1 @@
+Cluster yelp restaurants with K-means to find culinary districts in Las Vegas. Culinary districts are determined by closeness (latitude & longitude) and similarity (category) of restaurants. Number of optimal clusters is determined by silhouette coefficient.
