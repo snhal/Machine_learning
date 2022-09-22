@@ -156,10 +156,11 @@ class YelpStudy():
 # instantiate YelpStudy. Read and process data.
 ############################################################################################################
 
-yelp_obj = YelpStudy()
-yelp_obj.read_data()       
-arr_scaled = yelp_obj.select_data()
-yelp_obj.kmeans_clusters(arr_scaled)
+if __name__ == "__main__":
+	yelp_obj = YelpStudy()
+	yelp_obj.read_data()       
+	arr_scaled = yelp_obj.select_data()
+	yelp_obj.kmeans_clusters(arr_scaled)
 
 
 
