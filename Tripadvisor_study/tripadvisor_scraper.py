@@ -177,3 +177,4 @@ if __name__ == "__main__":
 	scraper.get_tourism_page()
 	scraper.get_city_hotels()
 	scraper.scrape_hotel_details()
+	
